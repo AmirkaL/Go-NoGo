@@ -10,7 +10,7 @@
 
 ### Шаг 1: Конвертация
 ```python
-python convert_script.py
+python convert.py
 ```
 - Преобразует часть конгруентных стимулов в инконгруентные
 - Создает пары `color_right,,1,` → `color_right,,2,`
@@ -19,7 +19,7 @@ python convert_script.py
 
 ### Шаг 2: Рандомизация  
 ```python
-python randomize_script.py
+python randomizer.py
 ```
 - Случайно распределяет все стимулы
 - Сохраняет пары вместе (не разъединяет)
@@ -28,7 +28,7 @@ python randomize_script.py
 
 ### Шаг 3: Проверка
 ```python
-python check_script.py
+python check.py
 ```
 - Проверяет количество пар (должно быть 40)
 - Проверяет отсутствие повторений
